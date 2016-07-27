@@ -19,12 +19,12 @@ http://nbviewer.jupyter.org/github/sar2160/AirBnB-Stats/blob/master/city_compari
 I am using the InsideAirBnB "San Francisco" Revenue Model, found here http://insideairbnb.com/about.html
 
 Key Assumptions, shared with SF Model: 
-    * The average stay is 3 nights
-    * Every other customer leaves a review i.e., review rate of 50%
-    * The occupancy rate is capped at 70% i.e., each AirBnB can be occupied a max of 21 days a month
+* The average stay is 3 nights
+* Every other customer leaves a review i.e., review rate of 50%
+* The occupancy rate is capped at 70% i.e., each AirBnB can be occupied a max of 21 days a month
     
 Key Assumptions, **not** shared with SF Model: 
-    * Throw out all listings with nightly price > 2500. This number is somewhat arbitrary but prices
+* Throw out all listings with nightly price > 2500. This number is somewhat arbitrary but prices
         higher than this do not seem believable for a 'nightly' rental, even for the most opulent apartment.
         They may be long-term listings (2500 a month seems reasonable) that are being classified incorrectly 
         by the scraper. 
